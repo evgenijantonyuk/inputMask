@@ -1,0 +1,33 @@
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+}
+
+.container {
+    margin: 0 auto;
+    width: 15%;
+}
+
+.input-wrap {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: stretch;
+}
+
+#phone-mask {
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.progress-line {
+    width: 3px;
+    height: 3px;
+    background-color: rgb(255, 137, 0);
+}
